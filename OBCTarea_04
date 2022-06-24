@@ -1,0 +1,18 @@
+nombre = 'Daniel'
+
+apellido = 'Terán'
+
+edad = 39
+
+email = 'danielteranp@hotmail.com'
+
+telef = 1130790730
+
+casado = False
+
+hijos = False
+
+listaAmigos = ['Fernando','Soledad','Carla','Damian','Adriana','Betho']
+
+peliculas = {'vistas': ['Laberinto','Rocky','Terminator'],'novistas': ['El padrino', ' Star Wars']}
+print ( nombre, apellido, edad, email, telef, casado, hijos, listaAmigos, peliculas)
