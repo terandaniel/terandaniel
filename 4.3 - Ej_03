@@ -1,0 +1,5 @@
+nums = []
+for n in range(101):
+    nums.append(n)
+nums.reverse()
+print (nums)
