@@ -1,0 +1,10 @@
+num_ini = int(input('Ingrese número de inicio'))
+num_fin = int(input('Ingrese número de final'))
+n_imp = []
+if num_ini > num_fin :
+    print ( 'El número de inicio debe ser menor al número de fin')
+else:
+    for n in range(num_ini,num_fin):
+        if n % 2 != 0 :
+            n_imp.append(n)
+    print (n_imp)
