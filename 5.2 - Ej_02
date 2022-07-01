@@ -1,0 +1,6 @@
+def primo (n):
+    for dsr in range (2,n-1):
+        if n % dsr == 0:
+            return 'No es Primo'
+        
+    return 'Es Primo'
