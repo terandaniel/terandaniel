@@ -1,0 +1,7 @@
+def bis ():
+    ano = int(input('Ingrese el año a buscar'))
+    
+    if ano % 4 == 0:
+        print ('El año ingresado es Bisiesto')
+    else:
+        print ('El año ingresado NO es Bisiesto')
