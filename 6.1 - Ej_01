@@ -3,7 +3,17 @@ class Vehiculo :
         self.color = color_p
         self.ruedas = ruedas_p
         self.puertas = puertas_p
+
 class Coche (Vehiculo):
-    def velocidad (self, velocidad_p):
+    def __init__ (self,color_p, ruedas_p, puertas_p, velocidad_p, cilindrada_p):
+        self.color = color_p
+        self.ruedas = ruedas_p
+        self.puertas = puertas_p
         self.velocidad = velocidad_p
+        self.cilindrada = cilindrada_p
+
+    
+
+p = Coche ('Rojo',4,5,1500, 125)
+print (p.velocidad, p.velocidad, p.puertas)
     
