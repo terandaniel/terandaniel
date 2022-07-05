@@ -1,0 +1,9 @@
+class Vehiculo :
+    def __init__ (self,color_p, ruedas_p, puertas_p):
+        self.color = color_p
+        self.ruedas = ruedas_p
+        self.puertas = puertas_p
+class Coche (Vehiculo):
+    def velocidad (self, velocidad_p):
+        self.velocidad = velocidad_p
+    
