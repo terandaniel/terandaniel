@@ -1,0 +1,14 @@
+class Alumno:
+    def inicializar (self, nombre_p, nota_p):
+        self.nombre = nombre_p
+        self.nota = nota_p
+    
+    def aprueba (self):
+        if self.nota > 5 :
+            print ('El alumno', self.nombre, 'aprueba')
+        else:
+            print ('El alumno', self.nombre,'no aprueba')
+
+alum = Alumno ()
+alum.inicializar ('Daniel',10)
+print(alum.aprueba())
