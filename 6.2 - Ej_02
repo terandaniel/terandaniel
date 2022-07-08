@@ -1,14 +1,19 @@
-class Alumno:
-    def inicializar (self, nombre_p, nota_p):
+class Alumno ():
+
+    def __init__ (self, nombre_p, nota_p):
+
         self.nombre = nombre_p
         self.nota = nota_p
-    
-    def aprueba (self):
-        if self.nota > 5 :
-            print ('El alumno', self.nombre, 'aprueba')
-        else:
-            print ('El alumno', self.nombre,'no aprueba')
 
-alum = Alumno ()
-alum.inicializar ('Daniel',10)
-print(alum.aprueba())
+    def atributos (self):
+        print ('Almuno: {} \nNota: {}'.format(self.nombre, self.nota))
+
+    def aprobacion (self):
+        if self.nota > 6:
+            print(self.nombre, 'Aprobó la materia')
+        else:
+            print (self.nombre,'No aprobó la materia')
+
+
+Juan = Alumno('Juan', 8)
+Juan.aprobacion()
