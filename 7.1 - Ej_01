@@ -1,0 +1,11 @@
+from operaciones import operaciones as op
+
+s = op.suma(54,5)
+
+r = op.resta(54,5)
+
+m = op.multiplicacion(54,5)
+
+d = op.division(52,3)
+
+print(s, r, m,d)
