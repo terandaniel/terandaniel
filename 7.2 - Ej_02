@@ -1,0 +1,12 @@
+import time
+tiempo_st = time.localtime()
+hora = tiempo_st.tm_hour
+minutos = tiempo_st.tm_min
+fh = 0
+fm = 0
+if hora > 19 :
+    print('Es hora de ir a casa. Son las ', hora,'hs', minutos,'minutos')
+else:
+    fh = (hora - 19)+1
+    fm = 60 - minutos
+    print('Aún queda', fh,'hs',fm,'minutos de trabajo')
