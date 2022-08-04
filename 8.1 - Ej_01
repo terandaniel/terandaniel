@@ -1,0 +1,9 @@
+f = open ( 'mi_archivo.txt','x')
+f.close()
+
+#-----Segundo ingreso-----
+
+f = open ( 'mi_archivo.txt','w+')
+f.write('Escribir esto en el archivo')
+f.close ()
+print (f)
